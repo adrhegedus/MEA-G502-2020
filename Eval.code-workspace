@@ -1,0 +1,42 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings":{
+		"python.pythonPath": "${workspaceFolder}\\env\\Scripts\\python.exe",
+		"python.analysis.extraPaths": ["app", "${workspaceFolder}\\env\\lib\\site-packages"],
+		"python.linting.pycodestyleEnabled": false,
+		"python.linting.enabled": true,
+		"python.linting.pylintEnabled": true,
+		"python.linting.mypyEnabled": false,
+		"workbench.colorCustomizations": {
+			"statusBar.foreground": "#EB504A",
+			"statusBar.background": "#2D2D2D",
+			"statusBar.debuggingBackground": "#EB504A",
+			"statusBar.debuggingForeground": "#2D2D2D"
+		},
+		"python.linting.pylintArgs": [
+			"--extension-pkg-whitelist=wx, win32gui"
+		],
+		"python.linting.ignorePatterns": [
+			".vscode/*.py",
+			"**/site-packages/**/*.py",
+			"*test.py"
+		],
+		"editor.rulers": [120],
+		"editor.renderWhitespace": "trailing",
+		"files.exclude": {
+			"**/*.lnk": true
+		},
+		"search.exclude": {
+			"**/*.lnk": true
+		},
+		"editor.fontFamily": "Fira Code",
+		"editor.fontSize": 13,
+		"editor.lineHeight": 18,
+		"editor.fontLigatures": true,
+		"jupyter.jupyterServerType": "local"
+	}
+}

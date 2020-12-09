@@ -1,0 +1,17 @@
+[MESSAGES CONTROL]
+disable=redefined-builtin,
+        wildcard-import,
+        unused-wildcard-import,
+        broad-except,
+        bare-except,
+        # redefined-outer-name,
+        global-statement,
+        missing-module-docstring,
+        missing-class-docstring,
+        # missing-function-docstring,
+        # multiple-statements,
+        line-too-long,
+        # wrong-import-order,
+        # invalid-name,
+        # R
+        # C
